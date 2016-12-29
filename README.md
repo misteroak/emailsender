@@ -6,7 +6,7 @@
 ####To run
 - ```python sendmail.py <config.json>```
 
-####Configuration file settings (JSON), see example XXXX
+####Configuration file settings (JSON), see [example](https://github.com/misteroak/emailsender/blob/master/config.json)
 \* - denotes a mandatory fields
 
 - **message**
