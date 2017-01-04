@@ -128,7 +128,7 @@ class EmailsSender:
 		number_of_emails = int(self.__config["batch_config"]["number_of_emails"])
 
 		for i in range(number_of_emails):
-			print i+1
+			print "%2d of %2d" % (i+1, number_of_emails)
 			
 			self.__send_email()
 			
